@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC823E1827726CC3006ED539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC823E1727726CC3006ED539 /* AppDelegate.swift */; };
+		DC823E1A27726CC3006ED539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC823E1927726CC3006ED539 /* SceneDelegate.swift */; };
+		DC823E1C27726CC3006ED539 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC823E1B27726CC3006ED539 /* LoginViewController.swift */; };
+		DC823E1F27726CC3006ED539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC823E1D27726CC3006ED539 /* Main.storyboard */; };
+		DC823E2127726CC4006ED539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC823E2027726CC4006ED539 /* Assets.xcassets */; };
+		DC823E2427726CC4006ED539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC823E2227726CC4006ED539 /* LaunchScreen.storyboard */; };
+		DCBDAC4627728C1700F0F641 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4527728C1700F0F641 /* RegisterViewController.swift */; };
+		DCBDAC4827728C2100F0F641 /* PhotoViwerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4727728C2100F0F641 /* PhotoViwerViewController.swift */; };
+		DCBDAC4A27728C8F00F0F641 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4927728C8F00F0F641 /* ProfileViewController.swift */; };
+		DCBDAC4C27728D4E00F0F641 /* MassagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4B27728D4E00F0F641 /* MassagesViewController.swift */; };
+		DCBDAC4E27728D9600F0F641 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4D27728D9600F0F641 /* VideoPlayerViewController.swift */; };
+		DCBDAC5027728F1E00F0F641 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC4F27728F1E00F0F641 /* PostViewController.swift */; };
+		DCBDAC5227728F2E00F0F641 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC5127728F2E00F0F641 /* DetailsViewController.swift */; };
+		DCBDAC5427728F7A00F0F641 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC5327728F7A00F0F641 /* ChatViewController.swift */; };
+		DCBDAC562772933A00F0F641 /* AdoptionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBDAC552772933A00F0F641 /* AdoptionPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC823E1427726CC3006ED539 /* BelalDOHAL_FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelalDOHAL_FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC823E1727726CC3006ED539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC823E1927726CC3006ED539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC823E1B27726CC3006ED539 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC823E1E27726CC3006ED539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC823E2027726CC4006ED539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC823E2327726CC4006ED539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC823E2527726CC4006ED539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBDAC4527728C1700F0F641 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DCBDAC4727728C2100F0F641 /* PhotoViwerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViwerViewController.swift; sourceTree = "<group>"; };
+		DCBDAC4927728C8F00F0F641 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DCBDAC4B27728D4E00F0F641 /* MassagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassagesViewController.swift; sourceTree = "<group>"; };
+		DCBDAC4D27728D9600F0F641 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		DCBDAC4F27728F1E00F0F641 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DCBDAC5127728F2E00F0F641 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DCBDAC5327728F7A00F0F641 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DCBDAC552772933A00F0F641 /* AdoptionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptionPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC823E1127726CC3006ED539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC823E0B27726CC3006ED539 = {
+			isa = PBXGroup;
+			children = (
+				DC823E1627726CC3006ED539 /* BelalDOHAL_FinalProject */,
+				DC823E1527726CC3006ED539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC823E1527726CC3006ED539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC823E1427726CC3006ED539 /* BelalDOHAL_FinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC823E1627726CC3006ED539 /* BelalDOHAL_FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDAC4427728A7200F0F641 /* Resource */,
+				DCBDAC4327728A3E00F0F641 /* Model */,
+				DCBDAC4227728A0800F0F641 /* View */,
+				DCBDAC41277289E200F0F641 /* Controller */,
+				DC823E2027726CC4006ED539 /* Assets.xcassets */,
+				DC823E2227726CC4006ED539 /* LaunchScreen.storyboard */,
+				DC823E2527726CC4006ED539 /* Info.plist */,
+			);
+			path = BelalDOHAL_FinalProject;
+			sourceTree = "<group>";
+		};
+		DCBDAC41277289E200F0F641 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDAC5727729D7300F0F641 /* Login-Regist */,
+				DCBDAC5827729DB600F0F641 /* Main */,
+				DCBDAC5927729DC900F0F641 /* Conversation */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCBDAC4227728A0800F0F641 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC823E1D27726CC3006ED539 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCBDAC4327728A3E00F0F641 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCBDAC4427728A7200F0F641 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DC823E1927726CC3006ED539 /* SceneDelegate.swift */,
+				DC823E1727726CC3006ED539 /* AppDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DCBDAC5727729D7300F0F641 /* Login-Regist */ = {
+			isa = PBXGroup;
+			children = (
+				DC823E1B27726CC3006ED539 /* LoginViewController.swift */,
+				DCBDAC4527728C1700F0F641 /* RegisterViewController.swift */,
+			);
+			path = "Login-Regist";
+			sourceTree = "<group>";
+		};
+		DCBDAC5827729DB600F0F641 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDAC4927728C8F00F0F641 /* ProfileViewController.swift */,
+				DCBDAC552772933A00F0F641 /* AdoptionPageViewController.swift */,
+				DCBDAC4F27728F1E00F0F641 /* PostViewController.swift */,
+				DCBDAC5127728F2E00F0F641 /* DetailsViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DCBDAC5927729DC900F0F641 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDAC4B27728D4E00F0F641 /* MassagesViewController.swift */,
+				DCBDAC5327728F7A00F0F641 /* ChatViewController.swift */,
+				DCBDAC4D27728D9600F0F641 /* VideoPlayerViewController.swift */,
+				DCBDAC4727728C2100F0F641 /* PhotoViwerViewController.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC823E1327726CC3006ED539 /* BelalDOHAL_FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC823E2827726CC4006ED539 /* Build configuration list for PBXNativeTarget "BelalDOHAL_FinalProject" */;
+			buildPhases = (
+				DC823E1027726CC3006ED539 /* Sources */,
+				DC823E1127726CC3006ED539 /* Frameworks */,
+				DC823E1227726CC3006ED539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelalDOHAL_FinalProject;
+			productName = BelalDOHAL_FinalProject;
+			productReference = DC823E1427726CC3006ED539 /* BelalDOHAL_FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC823E0C27726CC3006ED539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DC823E1327726CC3006ED539 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DC823E0F27726CC3006ED539 /* Build configuration list for PBXProject "BelalDOHAL_FinalProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC823E0B27726CC3006ED539;
+			productRefGroup = DC823E1527726CC3006ED539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC823E1327726CC3006ED539 /* BelalDOHAL_FinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC823E1227726CC3006ED539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC823E2427726CC4006ED539 /* LaunchScreen.storyboard in Resources */,
+				DC823E2127726CC4006ED539 /* Assets.xcassets in Resources */,
+				DC823E1F27726CC3006ED539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC823E1027726CC3006ED539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBDAC5027728F1E00F0F641 /* PostViewController.swift in Sources */,
+				DCBDAC4A27728C8F00F0F641 /* ProfileViewController.swift in Sources */,
+				DCBDAC562772933A00F0F641 /* AdoptionPageViewController.swift in Sources */,
+				DCBDAC5427728F7A00F0F641 /* ChatViewController.swift in Sources */,
+				DCBDAC4C27728D4E00F0F641 /* MassagesViewController.swift in Sources */,
+				DCBDAC4E27728D9600F0F641 /* VideoPlayerViewController.swift in Sources */,
+				DC823E1C27726CC3006ED539 /* LoginViewController.swift in Sources */,
+				DC823E1827726CC3006ED539 /* AppDelegate.swift in Sources */,
+				DC823E1A27726CC3006ED539 /* SceneDelegate.swift in Sources */,
+				DCBDAC4827728C2100F0F641 /* PhotoViwerViewController.swift in Sources */,
+				DCBDAC4627728C1700F0F641 /* RegisterViewController.swift in Sources */,
+				DCBDAC5227728F2E00F0F641 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC823E1D27726CC3006ED539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC823E1E27726CC3006ED539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC823E2227726CC4006ED539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC823E2327726CC4006ED539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC823E2627726CC4006ED539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC823E2727726CC4006ED539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC823E2927726CC4006ED539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BelalDOHAL_FinalProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belal.BelalDOHAL-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC823E2A27726CC4006ED539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BelalDOHAL_FinalProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Belal.BelalDOHAL-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC823E0F27726CC3006ED539 /* Build configuration list for PBXProject "BelalDOHAL_FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC823E2627726CC4006ED539 /* Debug */,
+				DC823E2727726CC4006ED539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC823E2827726CC4006ED539 /* Build configuration list for PBXNativeTarget "BelalDOHAL_FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC823E2927726CC4006ED539 /* Debug */,
+				DC823E2A27726CC4006ED539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC823E0C27726CC3006ED539 /* Project object */;
+}
